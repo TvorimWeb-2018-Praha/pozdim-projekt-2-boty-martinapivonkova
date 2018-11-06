@@ -18,6 +18,141 @@ body {
  PISMO
  Rubik - pouzite rezy pisma regular 400 a medium 500
  https://fonts.google.com/specimen/Rubik
+ (..font je vadný..? "ř","ž" jsou na výšku menší..)
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+
+.zbozi {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 670px;
+    height: 440px;
+    border-radius: 10px;
+    margin: 100px 200px;
+    box-shadow: grey 1px 5px 20px;
+}
+
+.vizual {
+    float: left;
+    width: 50%;
+    color: white;
+    background-image: linear-gradient( #06d7c1, #50cc49);
+    height: 440px;
+    border-radius: 10px 0px 0px 10px;
+    padding: 30px;
+    position: relative;
+}
+
+.logo {
+    margin-bottom: 30px;
+}
+
+.slogan {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bota {
+    position: absolute;
+    left: -80px;
+}
+
+.cenovka {
+    position: absolute;
+    text-align: right;
+    bottom: 30px;
+    right: 30px;
+}
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.zaruka {
+    font-size: 12px;
+}
+
+.detaily {
+    float: left;
+    width: 50%;
+    background-color: white;
+    height: 440px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 30px;
+    position: relative;
+}
+
+.nazev {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.produkt {
+    color: #959595;
+    margin-top: 10px;
+}
+
+.popis {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #06d7c1;
+
+}
+
+.parametr {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.velikosti {
+    padding: 0;
+    margin-top: 0;
+
+}
+.velikosti li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid white; /* aby se radka velikosti neposouvala nahoru/dolu, kdyz se nektera velikost oznaci.. */
+    width: 30px; /* aby se velikosti za tou oznacenou, neposouvaly doprava (padding 5+5, border 1+1, obsah 18px) */
+}
+
+/* .vybrana {
+    color: #f15f42;
+    border: 1px solid #f15f42;
+    border-radius: 50px;
+    font-weight: 500;
+} */
+
+.velikosti li:hover {
+    color: #f15f42;
+    border: 1px solid #f15f42;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+.akce {
+    width: 120px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 12px;
+    background-color: #f15f42;
+    text-align: center;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+
+.tlacitko {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+}
